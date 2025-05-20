@@ -1,7 +1,7 @@
 # Task app - Backend server with Express
 
 
-A simple backend that was created for a tasks app in order to practice Express JS.
+A simple backend server built with **Express.js** to practice backend developement. This server handels API requests for a **task management app** (todo app).
 
 ## Available API Endpoints
 
@@ -11,15 +11,15 @@ A simple backend that was created for a tasks app in order to practice Express J
 ### POST /api/tasks
 - Accepts a new task as JSON and adds it to the database.
 
-Note: Currently, tasks are stored in memory, so they will be lost when the server restarts.
+*Note: Currently, tasks are stored in memory, so they will be lost when the server restarts.*
 
 
 
 ## Tools used:
 
 
-- **Express JS**
-- **JavaScript**
+- Express.js
+- JavaScript
 
 
 ## TODO:
