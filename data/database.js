@@ -1,10 +1,11 @@
 import daysFromToday from "./createDate";
+import { nanoid } from "nanoid";
 
 export default [
   // TASKS NOT COMPLETED
   // ---- due: overdue (one year) ----
   {
-    id: 1,
+    id: nanoid(),
     name: "Book flights to Japan",
     description: "Compare ticket prices and finalize travel dates.",
     project: "Travel",
@@ -14,7 +15,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 2,
+    id: nanoid(),
     name: "Finish quarterly report",
     description: "Compile all department updates and review with manager.",
     project: "Work",
@@ -24,7 +25,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 3,
+    id: nanoid(),
     name: "Clean out garage",
     description: "Sort tools, recycle old items, and organize storage.",
     project: null,
@@ -34,7 +35,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 4,
+    id: nanoid(),
     name: "Buy groceries",
     description: "Milk, eggs, bread, fruit, and coffee.",
     project: null,
@@ -46,7 +47,7 @@ export default [
 
   // ---- due: overdue (one day) ---
   {
-    id: 5,
+    id: nanoid(),
     name: "Pack suitcase",
     description: "Prepare for 2-week trip. Don’t forget chargers and passport.",
     project: "Travel",
@@ -56,7 +57,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 6,
+    id: nanoid(),
     name: "Submit tax documents",
     description: "Upload to accountant’s portal.",
     project: "Work",
@@ -67,7 +68,7 @@ export default [
   },
 
   {
-    id: 7,
+    id: nanoid(),
     name: "Mow the lawn",
     description: "Check mower gas before starting.",
     project: null,
@@ -77,7 +78,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 8,
+    id: nanoid(),
     name: "Plan weekend hiking trip",
     description: "Pick a trail and invite friends.",
     project: null,
@@ -89,7 +90,7 @@ export default [
 
   // ---- due: today ----
   {
-    id: 9,
+    id: nanoid(),
     name: "Research Airbnb options",
     description: "Filter by reviews and location.",
     project: "Travel",
@@ -99,7 +100,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 10,
+    id: nanoid(),
     name: "Update LinkedIn profile",
     description: "Add recent projects and certifications.",
     project: "Work",
@@ -109,7 +110,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 11,
+    id: nanoid(),
     name: "Schedule dentist appointment",
     description: "Check insurance and pick a date.",
     project: null,
@@ -119,7 +120,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 12,
+    id: nanoid(),
     name: "Paint the guest room",
     description: "Pick a calming color and get supplies.",
     project: null,
@@ -130,7 +131,7 @@ export default [
   },
   // ---- due: future (tomorrow) ----
   {
-    id: 13,
+    id: nanoid(),
     name: "Create travel itinerary",
     description: "Include hotels, activities, and restaurants.",
     project: "Travel",
@@ -140,7 +141,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 14,
+    id: nanoid(),
     name: "Organize team meeting",
     description: "Set agenda and send invites.",
     project: "Work",
@@ -150,7 +151,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 15,
+    id: nanoid(),
     name: "Buy a gift for Sam",
     description: "Birthday is coming up soon!",
     project: null,
@@ -160,7 +161,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 16,
+    id: nanoid(),
     name: "Finish packing boxes",
     description: "Label them clearly before moving.",
     project: null,
@@ -172,7 +173,7 @@ export default [
 
   // ---- due: future (next year) ----
   {
-    id: 17,
+    id: nanoid(),
     name: "Set up standing desk",
     description: "Assemble parts and adjust height.",
     project: null,
@@ -182,7 +183,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 18,
+    id: nanoid(),
     name: "Send feedback to designer",
     description: "Review draft and provide detailed notes.",
     project: "Work",
@@ -192,7 +193,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 19,
+    id: nanoid(),
     name: "Make a vision board",
     description: "Collect images and quotes for inspiration.",
     project: null,
@@ -202,7 +203,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 20,
+    id: nanoid(),
     name: "Cancel gym membership",
     description: "Switching to home workouts.",
     project: null,
@@ -214,7 +215,7 @@ export default [
 
   // ---- due: someday (no due date) ----
   {
-    id: 21,
+    id: nanoid(),
     name: "Renew travel insurance",
     description: "Compare offers and renew before expiration.",
     project: "Travel",
@@ -224,7 +225,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 22,
+    id: nanoid(),
     name: "Write blog post",
     description: "Topic: Remote work productivity hacks.",
     project: "Work",
@@ -234,7 +235,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 23,
+    id: nanoid(),
     name: "Print boarding passes",
     description: "Double-check gate number and departure time.",
     project: null,
@@ -244,7 +245,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 24,
+    id: nanoid(),
     name: "Organize bookshelf",
     description: "Donate unread books to the library.",
     project: null,
@@ -257,7 +258,7 @@ export default [
   // TASKS COMPLETED
   // ---- (completed) due: overdue (one year) ----
   {
-    id: 25,
+    id: nanoid(),
     name: "Order travel-sized toiletries",
     description: "Sunscreen, shampoo, toothpaste, etc.",
     project: "Travel",
@@ -267,7 +268,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 26,
+    id: nanoid(),
     name: "Create slide deck for client",
     description: "Include updated metrics and branding.",
     project: "Work",
@@ -277,7 +278,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 27,
+    id: nanoid(),
     name: "Call grandma",
     description: "Catch up and plan a visit.",
     project: null,
@@ -287,7 +288,7 @@ export default [
     doneDate: null,
   },
   {
-    id: 28,
+    id: nanoid(),
     name: "Install new door lock",
     description: "Smart lock with keypad entry.",
     project: null,
@@ -298,7 +299,7 @@ export default [
   },
   // ---- (completed) due: overdue (one day) ----
   {
-    id: 29,
+    id: nanoid(),
     name: "Brainstorm Q2 goals",
     description: "Include team input and strategic priorities.",
     project: "Work",
@@ -308,7 +309,7 @@ export default [
     doneDate: daysFromToday(-1),
   },
   {
-    id: 30,
+    id: nanoid(),
     name: "Confirm hotel reservation",
     description: null,
     project: "Travel",
@@ -318,7 +319,7 @@ export default [
     doneDate: daysFromToday(-1),
   },
   {
-    id: 31,
+    id: nanoid(),
     name: "Pick up dry cleaning",
     description: "Before 6pm on Friday.",
     project: null,
@@ -328,7 +329,7 @@ export default [
     doneDate: daysFromToday(-1),
   },
   {
-    id: 32,
+    id: nanoid(),
     name: "Attend conference call",
     description: "Discussion about upcoming projects.",
     project: null,
@@ -339,7 +340,7 @@ export default [
   },
   // ---- (completed) due: today ----
   {
-    id: 33,
+    id: nanoid(),
     name: "Check weather forecast for trip",
     description: "Plan accordingly based on weather predictions.",
     project: "Home",
@@ -349,7 +350,7 @@ export default [
     doneDate: daysFromToday(0),
   },
   {
-    id: 34,
+    id: nanoid(),
     name: "Prepare meeting notes",
     description: "Review last meeting’s action items.",
     project: "Work",
@@ -359,7 +360,7 @@ export default [
     doneDate: daysFromToday(0),
   },
   {
-    id: 35,
+    id: nanoid(),
     name: "Clear out email inbox",
     description: "Unsubscribe from newsletters.",
     project: null,
@@ -369,7 +370,7 @@ export default [
     doneDate: daysFromToday(0),
   },
   {
-    id: 36,
+    id: nanoid(),
     name: "Fix broken lightbulb",
     description: "Replace the bulb in the kitchen.",
     project: null,
@@ -380,7 +381,7 @@ export default [
   },
   // ---- (completed) due: future (tomorrow) ----
   {
-    id: 37,
+    id: nanoid(),
     name: "Charge camera",
     description: "Ensure battery is full before trip.",
     project: "Travel",
@@ -390,7 +391,7 @@ export default [
     doneDate: daysFromToday(0),
   },
   {
-    id: 38,
+    id: nanoid(),
     name: "Submit internship application",
     description: null,
     project: "Work",
@@ -400,7 +401,7 @@ export default [
     doneDate: daysFromToday(0),
   },
   {
-    id: 39,
+    id: nanoid(),
     name: "Create personal budget for next month",
     description: "Review last month's expenses and adjust.",
     project: null,
@@ -410,7 +411,7 @@ export default [
     doneDate: daysFromToday(0),
   },
   {
-    id: 40,
+    id: nanoid(),
     name: "Register for marathon",
     description: "Make sure to pick the right race category.",
     project: null,
@@ -421,7 +422,7 @@ export default [
   },
   // ---- (completed) due: future (next year) ----
   {
-    id: 41,
+    id: nanoid(),
     name: "Finish online course",
     description: "Complete the final project for certification.",
     project: "Travel",
@@ -431,7 +432,7 @@ export default [
     doneDate: daysFromToday(-1),
   },
   {
-    id: 42,
+    id: nanoid(),
     name: "Upgrade website portfolio",
     description: "Showcase recent projects and redesign sections.",
     project: "Work",
@@ -441,7 +442,7 @@ export default [
     doneDate: daysFromToday(-1),
   },
   {
-    id: 43,
+    id: nanoid(),
     name: "Send invitations for dinner party",
     description: "Send out invites to 10 people.",
     project: null,
@@ -451,7 +452,7 @@ export default [
     doneDate: daysFromToday(-1),
   },
   {
-    id: 44,
+    id: nanoid(),
     name: "Sign up for yoga class",
     description: "Check availability and schedule for classes.",
     project: null,
@@ -462,7 +463,7 @@ export default [
   },
   // ---- (completed) due: someday (no due date) ----
   {
-    id: 45,
+    id: nanoid(),
     name: "Install new travel app",
     description: null,
     project: "Travel",
@@ -472,7 +473,7 @@ export default [
     doneDate: daysFromToday(0),
   },
   {
-    id: 46,
+    id: nanoid(),
     name: "Update resume",
     description: "Include recent work experience and skills.",
     project: "Work",
@@ -482,7 +483,7 @@ export default [
     doneDate: daysFromToday(0),
   },
   {
-    id: 47,
+    id: nanoid(),
     name: "Schedule annual health check-up",
     description: "Call the doctor's office and confirm dates.",
     project: null,
@@ -492,7 +493,7 @@ export default [
     doneDate: daysFromToday(0),
   },
   {
-    id: 48,
+    id: nanoid(),
     name: "Check in with project team",
     description: "Ensure tasks are on track for deadlines.",
     project: null,
