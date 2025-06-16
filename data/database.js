@@ -1,4 +1,4 @@
-import daysFromToday from "./createDate";
+import daysFromToday from "./createDate.js";
 import { nanoid } from "nanoid";
 
 export default [
