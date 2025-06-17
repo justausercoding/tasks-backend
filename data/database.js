@@ -343,7 +343,7 @@ export default [
     id: nanoid(),
     name: "Check weather forecast for trip",
     description: "Plan accordingly based on weather predictions.",
-    project: "Home",
+    project: "Travel",
     done: true,
     addedDate: daysFromToday(-1),
     dueDate: daysFromToday(0),
