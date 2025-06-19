@@ -2,7 +2,6 @@
 
 
 Backend server built with **Express.js**. This server handels API requests for a **task management app** (To Do app).
-
 ## Available API Endpoints
 
 ### GET /api/tasks
@@ -21,7 +20,6 @@ Backend server built with **Express.js**. This server handels API requests for a
 
 
 **Note:** Currently, tasks are stored in memory, so they will be lost when the server restarts.
-
 ## Testing
 
 
@@ -30,7 +28,6 @@ All API Endpoints are covered with tests using:
 - Supertest
 
 
-<br>
 ## Tech Stack:
 
 
