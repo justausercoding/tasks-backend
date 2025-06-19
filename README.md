@@ -1,8 +1,9 @@
-# Task app - Backend server with Express
+# Task app - Backend server with Express.js
 
 
-A backend server built with **Express.js** to practice backend developement. This server handels API requests for a **task management app** (todo app).
+Backend server built with **Express.js**. This server handels API requests for a **task management app** (To Do app).
 
+<br>
 ## Available API Endpoints
 
 ### GET /api/tasks
@@ -22,11 +23,20 @@ A backend server built with **Express.js** to practice backend developement. Thi
 
 **Note:** Currently, tasks are stored in memory, so they will be lost when the server restarts.
 
+<br>
+## Testing
 
 
-## Tools used:
+All API Endpoints are covered with tests using:
+- Vitest
+- Supertest
+
+
+<br>
+## Tech Stack:
 
 
 - Express.js
 - JavaScript
-- Vitest (with Supertest)
+- Vitest
+- Supertest
