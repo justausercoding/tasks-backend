@@ -82,7 +82,6 @@ class DatabaseClass {
    * @returns {boolean} Returns true if the task was deleted from the database otherwise 'false'.
    */
   deleteOneTask(id) {
-    console.log("-- inside of delteOneTask - id: ", id);
     for (let i = 0; i < this.tasks.length; i++) {
       if (id === this.tasks[i].id) {
         this.tasks.splice(i, 1);
