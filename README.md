@@ -1,4 +1,5 @@
-# Task app - Backend server with Express.js
+# ListoDo (Backend)
+# Todo app - Backend server built with Express.js
 
 
 Backend server built with **Express.js**. This server handels API requests for a **task management app** (To Do app).
