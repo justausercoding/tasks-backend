@@ -4,7 +4,12 @@ import cors from "cors";
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://pass-r.github.io/",
+    methods: ["GET", "POST", "PATCH", "DELETE"],
+  }),
+);
 
 app.use(express.json());
 
