@@ -1,8 +1,11 @@
-# ListoDo (Backend)
-# Todo app - Backend server built with Express.js
+# DuNau (Backend)
+## Todo app - Backend server built with Express.js
 
 
-Backend server built with **Express.js**. This server handels API requests for a **task management app** (To Do app).
+Backend server built with **Express.js**. This server handles API requests for a **task management app**.
+
+This backend works together with a frontend app built with React (see repository [dunau-frontend](https://github.com/pass-r/dunau-frontend)).
+
 ## Available API Endpoints
 
 ### GET /api/tasks
@@ -17,10 +20,18 @@ Backend server built with **Express.js**. This server handels API requests for a
 - Only the provided fields will be updated.
 
 ### DELETE /api/tasks/:id
-- Deletes one tasks
+- Deletes one task
 
 
 **Note:** Currently, tasks are stored in memory, so they will be lost when the server restarts.
+
+## Deployment
+
+
+
+The backend server is deployed on a VPS to ensure tasks are accessible online. It is managed with PM2 (a Node.js process manager) and secured with HTTPS.
+
+
 ## Testing
 
 
