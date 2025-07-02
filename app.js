@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://pass-r.github.io/",
+    origin: "https://pass-r.github.io",
     methods: ["GET", "POST", "PATCH", "DELETE"],
   }),
 );
