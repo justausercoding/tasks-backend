@@ -1,7 +1,6 @@
 # DuNau (Backend)
 ## Todo app - Backend server built with Express.js
 
-
 Backend server built with **Express.js**. This server handles API requests for a **task management app**.
 
 This backend works together with a frontend app built with React (see repository [dunau-frontend](https://github.com/pass-r/dunau-frontend)).
@@ -22,26 +21,23 @@ This backend works together with a frontend app built with React (see repository
 ### DELETE /api/tasks/:id
 - Deletes one task
 
+<br>
 
-**Note:** Currently, tasks are stored in memory, so they will be lost when the server restarts.
+**Note:** Currently, tasks are stored **in memory** for each user, so they will be lost when the server restarts.
 
 ## Deployment
 
-
-
-The backend server is deployed on a VPS to ensure tasks are accessible online. It is managed with PM2 (a Node.js process manager) and secured with HTTPS.
+The backend server is deployed on a **VPS** (Virtual Private Server) to ensure tasks are accessible online. It is managed with **PM2** (a Node.js process manager) and secured with **HTTPS**.
 
 
 ## Testing
-
 
 All API Endpoints are covered with tests using:
 - Vitest
 - Supertest
 
 
-## Tech Stack:
-
+## Tech Stack
 
 - Express.js
 - JavaScript
