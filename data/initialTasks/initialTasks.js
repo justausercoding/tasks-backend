@@ -6,47 +6,6 @@ function daysFromToday(days) {
 
 export default [
   // TASKS: NOT DONE
-  // ---- due: overdue (one year) ----
-  {
-    id: "zIudPvqv4ZrSjg9eI5DwE",
-    name: "Book flights to Japan",
-    description: "Compare ticket prices and finalize travel dates.",
-    project: "Travel",
-    done: false,
-    addedDate: daysFromToday(-366),
-    dueDate: daysFromToday(-365),
-    doneDate: null,
-  },
-  {
-    id: "d4abORHZhPxihekpNB_7J",
-    name: "Finish quarterly report",
-    description: "Compile all department updates and review with manager.",
-    project: "Work",
-    done: false,
-    addedDate: daysFromToday(-366),
-    dueDate: daysFromToday(-365),
-    doneDate: null,
-  },
-  {
-    id: "fQuotZcfK0V56bbmoO0kp",
-    name: "Clean out garage",
-    description: "Sort tools, recycle old items, and organize storage.",
-    project: null,
-    done: false,
-    addedDate: daysFromToday(-366),
-    dueDate: daysFromToday(-365),
-    doneDate: null,
-  },
-  {
-    id: "1qAPfL7J8MINX3mVGUOW2",
-    name: "Buy groceries",
-    description: "Milk, eggs, bread, fruit, and coffee.",
-    project: null,
-    done: false,
-    addedDate: daysFromToday(-366),
-    dueDate: daysFromToday(-365),
-    doneDate: null,
-  },
 
   // ---- due: overdue (one day) ---
   {
